@@ -1,0 +1,27 @@
+{
+  "name": "ABDev/AmastyOverrides",
+  "description": "Overrides for Amasty modules",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Andy Bolton",
+      "email": "hey@andybolton.dev",
+      "homepage": "https://andybolton.dev",
+      "role": "Web Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "ABDev\\AmastyOverrides\\": ""
+    }
+  },
+  "require": {
+    "amasty/base": "*",
+    "amasty/shippingtablerates": "*"
+  }
+}

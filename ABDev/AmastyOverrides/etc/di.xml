@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+  <!-- Overrid to category view - use category header if set instead of category title for page title -->
+  <preference for="Magento\Framework\Phrase\Renderer\MessageFormatter" type="ABDev\AmastyOverrides\Framework\Phrase\Renderer\MessageFormatter" />
+</config>
