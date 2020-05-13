@@ -43,3 +43,11 @@
 /var/package/*
 !/var/package/*.xml
 
+
+#--------------------------#
+# Misc Files               #
+#--------------------------#
+
+*.log
+.DS_Store
+sftp.json
